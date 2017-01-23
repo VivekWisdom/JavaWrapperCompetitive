@@ -65,7 +65,7 @@ public class Solution implements Closeable {
 	}
 
 	public static void main(String[] args) throws IOException {
-		try (ToggleString instance = new ToggleString()) {
+		try (Solution instance = new Solution()) {
 			instance.solve();
 		}
 	}
